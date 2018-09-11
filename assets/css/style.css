@@ -1,0 +1,191 @@
+header{
+    width: 100%;
+    background-color: white;
+    height: auto;
+    margin-bottom: 5%;
+    height: 80px;
+    box-shadow: 5px 3px grey;
+
+}
+.main{
+    width: 960px;
+    box-sizing: border-box;
+    padding: auto;
+    margin: auto;
+    background-color: white;
+    height: 80px;
+    
+    
+
+}
+
+#aboutme{
+    border-bottom: 5px solid gray;
+    padding: 20px;
+    margin-bottom:25px;
+    clear: right;
+    color: #4aaaa5;
+}
+#mypic{
+    
+    width: 200px;
+    height: 200px;
+    margin-right: 20px;
+    position: relative;
+    top: 0;
+    left: 0;
+    float: left;
+}
+#heading{
+    float: left;
+    background-color: #4aaaa5;
+    color: white;
+    padding: 25px;
+    margin: 0;
+    text-align: center;
+    margin: 0;
+    box-sizing: border-box;
+    height: 80px;
+}
+ul {
+    float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: white;
+    height: 80px;
+}
+
+li {
+    float: right;
+    background-color: #4aaaa5;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 30px 16px;
+    text-decoration: none;
+    float: right;
+    height: 80px;
+    box-sizing: border-box;
+    width: 88px;
+}
+
+li a:hover {
+    background-color: white;
+    color: black;
+}
+
+.para1{
+    background-color: white;
+    clear: both;
+    border: 2px silver solid;
+    width: 960px;
+    border-radius: 5px;
+    padding: 0 20px 10px 20px;
+    margin: auto;
+    top: 50%;
+    box-sizing: border-box;
+    box-shadow: 5px 5px grey;
+    
+}
+.paraPort{
+    background-color: white;
+    clear: both;
+    border: 2px silver solid;
+    width: 960px;
+    border-radius: 5px;
+    padding: 0 20px 10px 20px;
+    margin: auto;
+    top: 50%;
+    box-sizing: border-box;
+    box-shadow: 5px 5px grey;
+    height: 700px;
+    position: relative;
+    
+}
+
+p {
+    font-family: 'arial', 'Helvetica Neue', Helvetica, sans-serif; 
+}
+
+body{
+    background-color:lightgray;
+    padding: 0;
+    margin: 0;
+    align-items: center;
+    margin-bottom: 200px;
+}
+
+input{
+    width: 100%;
+    padding: 2px;
+    height: 30px;
+    font-size: 12px;
+    margin-bottom: 10px;
+}
+
+img{
+    height: 200px;
+    width: 200px;
+    margin: 0;
+}
+
+#coding{
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    text-align: center;
+    color: white;
+}
+
+#iphone{
+    position: absolute;
+    top: 25%;
+    right: 20%;
+    text-align: center;
+    color: white;
+}
+
+#pool{
+    position: absolute;
+    bottom: 15%;
+    left: 20%;
+    text-align: center;
+    color: white;
+}
+
+#soccer{
+    position: absolute;
+    bottom: 15%;
+    right: 20%;
+    text-align: center;
+    color: white;
+}
+
+.centered {
+    width: 100%;
+    position: absolute;
+    top: 75%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 7% 0;
+    background-color: #4aaaa5;
+    opacity: 75%;
+}
+
+footer{
+    position: fixed;
+    bottom: 0px;
+    height: 5px;
+    width: 100%;
+    padding: 30px;
+    text-align: center;
+    border-top: 2px solid #4aaaa5;
+    color: white;
+    background-color: grey;
+    margin-top: 50px;
+}
